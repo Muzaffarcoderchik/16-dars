@@ -1,0 +1,52 @@
+* {
+margin: 0;
+padding: 0;
+border: none;
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+border: 3px solid gray;
+padding: 20px;
+border-radius: 50px;
+}
+
+.container input{
+margin-bottom: 20px;
+border: 3px solid rgb(201, 201, 201);
+
+}
+
+.container input:hover {
+    font-family: cursive;
+    color: darkred;
+    background-color: gold;
+}
+
+.container input, button {
+padding: 20px;
+font-size: 30px;
+border-radius: 50px;
+outline: none;
+transition: 0.4s all;
+}
+
+button:hover {
+cursor: pointer;
+color: blue;
+background-color: aqua;
+}
+button:active {
+transform: scale(0.90);
+
+}
+
+
